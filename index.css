@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+#forImage
+{
+  margin: 3rem auto;
+  max-width: 20rem;
+  height: auto;
+  border: 8px groove black;
+  display: flex;
+  align-items: center;
+}
+
+ #container {
+  border: 2px solid pink;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ h1{
+   display: flex;
+   text-align: center;
+ }
+ 
+ button {
+  width: 8rem;
+  font-size: 1rem;
+  height: 1.5rem;
+  cursor: pointer;
+ }
+
+ img{
+  max-width: 19rem;
+ }
+
+ @media (max-width: 500px){
+  #forImage{
+    width: 80%;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  #buttons{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+ }
